@@ -1,1 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    font-family: Source Sans Pro;
+    background-color: #eee;
+    border-color: #eee;
+}
+
+header {
+    font-family: Abril Fatface;
+}
+
+h2, h4, {
+    font-family: Roboto Slab;
+}
+
+.newspaper-container {
+    background-color: white;
+    box-shadow: #ddd;
+    width: 700px;
+    border-radius: 15px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+/*  REMEMBER Descendant Selector to target */
+main h5 {
+    color:  #dd3232;
+}
+
+a, p, .date {
+   text-decoration: color #777;
+   color: #777;
+   text-decoration: none;
+   border-top: 5px;
+}
+
+li {
+    list-style: none;
+    padding: 7px;
+    display: inline-block;
+
+}
+
+ul {
+    padding-left: 0%;
+    border-top-style: double;
+    border-bottom-style: double;
+}
+/* 
+Front-Page Article
+Have you noticed how the article text beneath the image isn't quite flush with the edges of the image? What should you add to achieve this look?
+More Articles
+The short articles are next to each other. Try achieving this effect using display of inline-block and manipulating the width of each article.
+The articles are also centered within their container. What can you use to achieve this look? Hint: You probably used the same thing for the newspaper header.
+Don't forget to add a border to the top of the container.
+
+This part is confusing but hopefully im on the right track */
+.more-articles {
+    display: flex;
+    width: 700px;
+    border-top-style: groove;
+}
+  
+  section {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  }
+
+/* I honsetly did better looking at the img then following along the intrustions is that a bad thing ? */
